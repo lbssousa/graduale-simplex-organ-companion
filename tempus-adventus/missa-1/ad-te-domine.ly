@@ -118,7 +118,7 @@ psalmVerseIII = \lyricmode {
   \set stanza = "3. "
   \markup { \italic Dí } -- \markup { \italic ri } --
   "ge me in veritáte tua, et" \markup { \bold do } -- ce "me, †"
-  "quia tu es Deus sa" -- \markup { \italic lú } -- \markup { \italic tis } -- \markup { \bold  me } -- _ "æ, *"
+  "quia tu es Deus sa" -- \markup { \italic lú } -- \markup { \italic tis } \markup { \bold  me } -- _ "æ, *"
   \set stanza = "3. "
   "in te sustínui tota" \markup { \bold di } -- _ e.
 }
@@ -134,7 +134,7 @@ psalmVerseIV = \lyricmode {
 psalmVerseV = \lyricmode {
   \set stanza = "5. "
   \markup \italic Dul -- \markup \italic cis _ _ _ _
-  "et" \markup \italic rec -- \markup \italic tus -- \markup { \bold Dó } -- mi -- "ne, *"
+  "et" \markup \italic rec -- \markup \italic tus \markup { \bold Dó } -- mi -- "ne, *"
   \set stanza = "5. "
   "propter hoc peccatóres viam do" -- \markup { \bold cé } -- _ bit.
 }
