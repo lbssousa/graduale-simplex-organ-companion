@@ -34,7 +34,7 @@ antiphonChord = \chordmode {
 }
 
 antiphonLyrics = \lyricmode {
-  Ro -- rá -- te cæ -- li -- dé -- su -- "per, *" et nu -- bes plu -- ant Iu -- stum: a -- pe -- ri -- á -- tur ter -- ra, et gér -- mi -- net Sal -- va -- tó -- rem.
+  Ro -- rá -- te cæ -- li dé -- su -- "per, *" et nu -- bes plu -- ant Iu -- stum: a -- pe -- ri -- á -- tur ter -- ra, et gér -- mi -- net Sal -- va -- tó -- rem.
 }
 
 psalmChant = {
