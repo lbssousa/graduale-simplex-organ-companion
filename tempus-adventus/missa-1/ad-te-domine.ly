@@ -84,7 +84,7 @@ psalmVerseI = \lyricmode {
   \markup { \italic Ne } -- \markup { \italic que } _ _ _ _
   "exsúltent super me ini" -- \markup { \italic mí } -- \markup { \italic ci } \markup { \bold me } -- _ "i, *"
   \set stanza = "1. "
-  "étenim univérsi qui sustínent te non confun" -- \markup { \bold dén } -- _ tur.
+  "étenim univérsi qui sustínent te" "non confun" -- \markup { \bold dén } -- _ tur.
 }
 
 psalmVerseII = \lyricmode {
@@ -92,7 +92,7 @@ psalmVerseII = \lyricmode {
   \markup { \italic Vi } -- \markup { \italic as } _ _ _ _
   "tuas, Dómine, de" -- \markup { \italic món} -- \markup { \italic stra } \markup { \bold mi } -- _ "hi, *"
   \set stanza = "2. "
-  "et sémitas tuas e" -- \markup { \bold dó } -- ce me.
+  "et sémitas" "tuas e" -- \markup { \bold dó } -- ce me.
 }
 
 psalmVerseIII = \lyricmode {
@@ -101,7 +101,7 @@ psalmVerseIII = \lyricmode {
   "ge me in veritáte tua, et"\markup { \bold do } -- ce "me, †"
   "quia tu es Deus sa" -- \markup { \italic lú } -- \markup { \italic tis } \markup { \bold  me } -- _ "æ, *"
   \set stanza = "3. "
-  "in te sustínui tota" \markup { \bold di } -- _ e.
+  "in te sustínui" "tota" \markup { \bold di } -- _ e.
 }
 
 psalmVerseIV = \lyricmode {
@@ -109,7 +109,7 @@ psalmVerseIV = \lyricmode {
   \markup { \italic Se } -- \markup { \italic cún } -- _ _ _ _
   "dum misericórdiam tuam me" -- \markup { \italic mén } -- \markup { \italic to } \markup { \bold me } -- i "tu, *"
   \set stanza = "4. "
-  "propter bonitátem tuam," \markup { \bold Dó } -- mi -- ne.
+  "propter bonitátem" "tuam," \markup { \bold Dó } -- mi -- ne.
 }
 
 psalmVerseV = \lyricmode {
@@ -117,7 +117,7 @@ psalmVerseV = \lyricmode {
   \markup \italic Dul -- \markup \italic cis _ _ _ _
   "et" \markup \italic rec -- \markup \italic tus \markup { \bold Dó } -- mi -- "ne, *"
   \set stanza = "5. "
-  "propter hoc peccatóres viam do" -- \markup { \bold cé } -- _ bit.
+  "propter hoc peccatóres" "viam do" -- \markup { \bold cé } -- _ bit.
 }
 
 psalmVerseVI = \lyricmode {
@@ -125,7 +125,7 @@ psalmVerseVI = \lyricmode {
   \markup \italic Dí -- \markup \italic ri -- _ _ _ _
   "get mansuétos" \markup \italic in \markup \italic iu -- \markup \bold dí -- ci -- "o, *"
   \set stanza = "6. "
-  "docébit mites vias" \markup { \bold su } -- _ as.
+  "docébit mites" "vias" \markup { \bold su } -- _ as.
 }
 
 %#(set-global-staff-size 23)

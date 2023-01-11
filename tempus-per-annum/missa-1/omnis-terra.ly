@@ -5,7 +5,7 @@
 antiphonChant = \relative c' {
   f4 d f \neumII e d
   \neumII e f g4 f f g e \divisioMinima
-  f d c d d \divisioMaior
+  f d c d d \divisioMaior \break
   d e f f f f f f f d f e \finalis
 }
 
@@ -77,7 +77,7 @@ psalmVerseI = \lyricmode {
   \markup { \italic Iu } -- \markup { \italic bi } --
   "láte Deo," \markup { \italic om } -- \markup { \italic nis } \markup { \bold ter } -- "ra, *"
   \set stanza = "1. "
-  "glorificá" -- \markup { \italic te } \markup { \italic lau } -- \markup { \italic dem } _ \markup { \bold e } -- ius.
+  "glorifi" -- cá -- \markup { \italic te } \markup { \italic lau } -- \markup { \italic dem } _ \markup { \bold e } -- ius.
 }
 
 psalmVerseII = \lyricmode {
@@ -85,7 +85,7 @@ psalmVerseII = \lyricmode {
   \markup { \italic Be } -- \markup { \italic ne } --
   "dícite, gentes," \markup { \italic De } -- \markup { \italic um } \markup { \bold no } -- "strum, *"
   \set stanza = "2. "
-  "at audítam fácite vo" -- \markup { \italic cem } \markup { \italic lau } -- \markup { \italic dis } _ \markup { \bold e } -- ius.
+  "at audítam fácite" -- vo -- \markup { \italic cem } \markup { \italic lau } -- \markup { \italic dis } _ \markup { \bold e } -- ius.
 }
 
 psalmVerseIII = \lyricmode {
@@ -93,7 +93,7 @@ psalmVerseIII = \lyricmode {
   \markup { \italic Qui } \markup { \italic pó } --
   "suit ánimam no" -- \markup { \italic stram } \markup { \italic ad } \markup { \bold vi } -- "tam, *"
   \set stanza = "3. "
-  "et non dedit in commotió" -- \markup { \italic nem } \markup { \italic pe } -- \markup { \italic des } _ \markup { \bold no } -- stros.
+  "et non dedit in commoti" -- ó -- \markup { \italic nem } \markup { \italic pe } -- \markup { \italic des } _ \markup { \bold no } -- stros.
 }
 
 psalmVerseIV = \lyricmode {
@@ -101,7 +101,7 @@ psalmVerseIV = \lyricmode {
   \markup { \italic Quó } -- \markup { \italic ni } --
   "am probá" -- \markup { \italic sti } \markup { \italic nos, } \markup { \bold De } -- "us, *"
   \set stanza = "4. "
-  "igne nos examinásti sicut exami" -- \markup { \italic ná } -- \markup { \italic tur } \markup { \italic ar } _ \markup { \bold gén } -- tum.
+  "igne nos examinásti sicut exa" -- mi -- \markup { \italic ná } -- \markup { \italic tur } \markup { \italic ar } _ \markup { \bold gén } -- tum.
 }
 
 psalmVerseV = \lyricmode {
@@ -109,7 +109,7 @@ psalmVerseV = \lyricmode {
   \markup { \italic In } -- \markup { \italic tro } --
   "íbo in domum tuam in" \markup { \italic ho } -- \markup { \italic lo } -- \markup { \bold cáu } -- "stis; *"
   \set stanza = "5. "
-  "reddam tibi vota mea, quæ protulérunt" \markup { \italic lá } -- \markup { \italic bi } -- \markup { \italic a } _ \markup { \bold me } -- a.
+  "reddam tibi vota mea, quæ protulé" -- runt \markup { \italic lá } -- \markup { \italic bi } -- \markup { \italic a } _ \markup { \bold me } -- a.
 }
 
 psalmVerseVI = \lyricmode {
@@ -117,7 +117,7 @@ psalmVerseVI = \lyricmode {
   \markup { \italic Ve } -- \markup { \italic ní } --
   "te, audíte, et narrábo, omnes, qui ti" -- \markup { \italic mé } -- \markup { \italic tis } \markup { \bold De } -- "um, *"
   \set stanza = "6. "
-  "quanta fecit" -- \markup { \italic á } -- \markup { \italic ni } -- \markup { \italic mæ } _ \markup { \bold me } -- æ.
+  "quanta fe" -- cit \markup { \italic á } -- \markup { \italic ni } -- \markup { \italic mæ } _ \markup { \bold me } -- æ.
 }
 
 psalmVerseVII = \lyricmode {
@@ -125,7 +125,7 @@ psalmVerseVII = \lyricmode {
   \markup { \italic Ad } \markup { \italic ip } --
   "sum ore me" -- \markup { \italic o } \markup { \italic cla } -- \markup { \bold má } -- "vi, *"
   \set stanza = "7. "
-  "et exaltávi" \markup { \italic in } \markup { \italic lin } -- \markup { \italic gua } _ \markup { \bold me } -- a.
+  "et exaltá" -- vi \markup { \italic in } \markup { \italic lin } -- \markup { \italic gua } _ \markup { \bold me } -- a.
 }
 
 psalmVerseVIII = \lyricmode {
@@ -133,7 +133,7 @@ psalmVerseVIII = \lyricmode {
   \markup { \italic In } -- \markup { \italic i } --
   "quitátem si aspéxi in" \markup { \italic cor } -- \markup { \italic de } \markup { \bold me } -- "o, *"
   \set stanza = "8. "
-  "non ex" -- \markup { \italic áu } -- \markup { \italic di } -- \markup { \italic et } \markup { \bold Dó } -- \markup { \bold mi } -- no.
+  "non" -- ex -- \markup { \italic áu } -- \markup { \italic di } -- \markup { \italic et } \markup { \bold Dó } -- \markup { \bold mi } -- no.
 }
 
 psalmVerseIX = \lyricmode {
@@ -141,7 +141,7 @@ psalmVerseIX = \lyricmode {
   \markup { \italic Prop } -- \markup { \italic té } --
   "rea exau" -- \markup { \italic dí } -- \markup { \italic vit } \markup { \bold De } -- "us, *"
   \set stanza = "9. "
-  "atténdit voci depreca" -- \markup { \italic ti } -- \markup { \italic ó } -- \markup { \italic nis } _ \markup { \bold me } -- æ.
+  "atténdit voci depre" -- ca -- \markup { \italic ti } -- \markup { \italic ó } -- \markup { \italic nis } _ \markup { \bold me } -- æ.
 }
 
 psalmVerseX = \lyricmode {
@@ -149,7 +149,7 @@ psalmVerseX = \lyricmode {
   \markup { \italic Be } -- \markup { \italic ne } --
   "díctus Deus, qui non amóvit orati" -- \markup { \italic ó } -- \markup { \italic nem } \markup { \bold me } -- "am *"
   \set stanza = "10. "
-  "et misericórdi" -- \markup { \italic am } \markup { \italic su } -- \markup { \italic am } _ \markup { \bold a } me.
+  "et misericór" -- di -- \markup { \italic am } \markup { \italic su } -- \markup { \italic am } _ \markup { \bold a } me.
 }
 
 %#(set-global-staff-size 23)
@@ -229,6 +229,37 @@ psalmVerseX = \lyricmode {
       \new GregorianTranscriptionLyrics \lyricsto "psalm" \psalmVerseIII
       \new GregorianTranscriptionLyrics \lyricsto "psalm" \psalmVerseIV
       \new GregorianTranscriptionLyrics \lyricsto "psalm" \psalmVerseV
+    >>
+
+    \new GrandStaff <<
+      \new GregorianTranscriptionStaff = "up" {
+        \new GregorianTranscriptionVoice <<
+          \psalmOrganChant \\ \psalmOrganAlto
+        >>
+      }
+
+      \new GregorianTranscriptionStaff = "down" {
+        \clef bass
+
+        \new GregorianTranscriptionVoice <<
+          \psalmOrganTenor \\ \psalmOrganBass
+        >>
+      }
+    >>
+  >>
+}
+
+\score {
+  <<
+    \new ChordNames {
+      \psalmChord
+    }
+
+    \new GregorianTranscriptionStaff <<
+      \new GregorianTranscriptionVoice = "psalm" {
+        \psalmChant
+      }
+
       \new GregorianTranscriptionLyrics \lyricsto "psalm" \psalmVerseVI
       \new GregorianTranscriptionLyrics \lyricsto "psalm" \psalmVerseVII
       \new GregorianTranscriptionLyrics \lyricsto "psalm" \psalmVerseVIII
