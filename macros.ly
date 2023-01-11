@@ -51,25 +51,26 @@ episemaII =
 %
 % Voice leading lines are drawn as dotted glissandi
 %
-voiceLineStyle = {
-  \override Glissando.style = #'dotted-line
-  \override Glissando.thickness = #2.0
-  \override NoteColumn.force-hshift = #0
-  \override NoteHead.transparent = ##t
+consonanteStyle = {
+  \once \override Glissando.style = #'dotted-line
+  \once \override Glissando.thickness = #2.0
+  \once \override NoteColumn.force-hshift = #0
 }
 
-voiceLine =
-#(define-music-function
-  (staffA staffB noteA noteB)
-  (string? string? ly:music? ly:music?)
-  #{
-    \change Staff = #staffA <>\glissando #noteA
-    \change Staff = #staffB #noteB
-  #})
-
-allowVoiceLineBreak = {
+allowConsonanteBreak = {
   \once \override Glissando.breakable = ##t
   \once \override Glissando.after-line-breaking = ##t
 }
 
-offsetVoiceLineY = { \once \overrideProperty Glissando.Y-offset #0.2 }
+offsetConsonanteY = { \once \overrideProperty Glissando.Y-offset #0.2 }
+
+consonante =
+#(define-music-function
+  (pa da pb db)
+  (ly:pitch? ly:duration? ly:pitch? ly:duration?)
+  #{
+    \consonanteStyle
+    $pa $da ~\glissando
+    \once \override NoteHead.transparent = ##t
+    $pb $db ~
+  #})
