@@ -1,6 +1,5 @@
 \version "2.24.0"
 
-\include "../../macros.ly"
 \include "../../mode-4.ly"
 
 antiphonChant = \relative c' {
@@ -40,61 +39,43 @@ antiphonLyrics = \lyricmode {
 
 psalmChant = {
   \chantInchoatioIV \bar "!"
-  \chantTenorIV
   \chantFlexaIV \bar "!"
-  \chantTenorIV
   \chantMediatioIV \divisioMaxima \break
-  \chantTenorIV
   \chantTerminatioIVc \finalis
 }
 
 psalmOrganChant = {
   \chantInchoatioIV \bar "!"
-  \chantTenorIV
   \chantFlexaIV \bar "!"
-  \chantTenorIV
   \chantMediatioIV \divisioMaxima \break
-  \organChantTenorIVc
-  \chantTerminatioIVc \finalis
+  \organChantTerminatioIVc \finalis
 }
 
 psalmOrganAlto = {
   \organAltoInchoatioIVc
-  \organAltoTenorIVc
   \organAltoFlexaIVc
-  \organAltoTenorIVc
   \organAltoMediatioIVc
-  \organAltoTenorAltIVc
   \organAltoTerminatioIVc
 }
 
 psalmOrganTenor = {
   \organTenorInchoatioIVc
-  \organTenorTenorIVc
   \organTenorFlexaIVc
-  \organTenorTenorIVc
   \organTenorMediatioIVc \divisioMaxima
-  \organTenorTenorAltIVc
   \organTenorTerminatioIVc \finalis
 }
 
 psalmOrganBass = {
   \organBassInchoatioIVc
-  \organBassTenorIVc
   \organBassFlexaIVc
-  \organBassTenorIVc
   \organBassMediatioIVc
-  \organBassTenorAltIVc
   \organBassTerminatioIVc
 }
 
 psalmChord = \chordmode {
   \chordInchoatioIVc
-  \chordTenorIVc
   \chordFlexaIVc
-  \chordTenorIVc
   \chordMediatioIVc
-  \chordTenorAltIVc
   \chordTerminatioIVc
 }
 
@@ -117,7 +98,7 @@ psalmVerseII = \lyricmode {
 psalmVerseIII = \lyricmode {
   \set stanza = "3. "
   \markup { \italic Dí } -- \markup { \italic ri } --
-  "ge me in veritáte tua, et" \markup { \bold do } -- ce "me, †"
+  "ge me in veritáte tua, et"\markup { \bold do } -- ce "me, †"
   "quia tu es Deus sa" -- \markup { \italic lú } -- \markup { \italic tis } \markup { \bold  me } -- _ "æ, *"
   \set stanza = "3. "
   "in te sustínui tota" \markup { \bold di } -- _ e.

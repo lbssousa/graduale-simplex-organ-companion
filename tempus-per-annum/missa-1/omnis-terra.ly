@@ -1,6 +1,5 @@
 \version "2.24.0"
 
-\include "../../macros.ly"
 \include "../../mode-4.ly"
 
 antiphonChant = \relative c' {
@@ -39,60 +38,39 @@ antiphonLyrics = \lyricmode {
 
 psalmChant = {
   \chantInchoatioIV
-  \chantTenorIV
   \chantMediatioSimplexIV \divisioMaxima \break
-  \chantTenorIV
   \chantTerminatioIVE \finalis
 }
 
 psalmOrganChant = {
   \chantInchoatioIV
-  \chantTenorIV
   \chantMediatioSimplexIV \divisioMaxima \break
-  \organChantTenorAltIVE
-  \chantTerminatioIVE \finalis
+  \organChantTerminatioIVE \finalis
 }
 
 psalmOrganAlto = {
   \organAltoInchoatioIVE
-  \organAltoTenorIVE
   \organAltoMediatioIVE
-  \organAltoTenorAltIVE
   \organAltoTerminatioIVE
 }
 
 psalmOrganTenor = {
   \organTenorInchoatioIVE
-  \organTenorTenorIVE
   \organTenorMediatioIVE \divisioMaxima
-  \organTenorTenorAltIVE
   \organTenorTerminatioIVE \finalis
 }
 
 psalmOrganBass = {
   \organBassInchoatioIVE
-  \organBassTenorIVE
   \organBassMediatioIVE
-  \organBassTenorAltIVE
   \organBassTerminatioIVE
 }
 
 psalmChord = \chordmode {
   \chordInchoatioIVE
-  \chordTenorIVE
   \chordMediatioIVE
-  \chordTenorAltIVE
   \chordTerminatioIVE
 }
-
-voiceLines = \relative c {
-  \voiceLineStyle
-  s2
-  \voiceLine "down" "down" c2*2 g'2
-  s4*5
-  \voiceLine "up" "up" d'2 e4
-}
-
 
 psalmVerseI = \lyricmode {
   \set stanza = "1. "
@@ -269,7 +247,7 @@ psalmVerseX = \lyricmode {
         \clef bass
 
         \new GregorianTranscriptionVoice <<
-          \psalmOrganTenor \\ \psalmOrganBass \\ \voiceLines
+          \psalmOrganTenor \\ \psalmOrganBass
         >>
       }
     >>

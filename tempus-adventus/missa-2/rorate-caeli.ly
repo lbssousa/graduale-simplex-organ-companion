@@ -1,6 +1,5 @@
 \version "2.24.0"
 
-\include "../../macros.ly"
 \include "../../mode-4.ly"
 
 antiphonChant = \relative c' {
@@ -39,51 +38,36 @@ antiphonLyrics = \lyricmode {
 
 psalmChant = {
   \chantInchoatioIV \bar "!"
-  \chantTenorIV
   \chantFlexaSimplexIV \bar "!"
-  \chantTenorIV
   \chantMediatioSimplexIV \divisioMaxima \break
-  \chantTenorIV
   \chantTerminatioIVA \finalis
 }
 
 psalmOrganAlto = {
   \organAltoInchoatioIVA
-  \organAltoTenorIVA
   \organAltoFlexaIVA
-  \organAltoTenorIVA
   \organAltoMediatioIVA
-  \organAltoTenorAltIVA
   \organAltoTerminatioIVA
 }
 
 psalmOrganTenor = {
   \organTenorInchoatioIVA
-  \organTenorTenorIVA
   \organTenorFlexaIVA
-  \organTenorTenorIVA
   \organTenorMediatioIVA \divisioMaxima
-  \organTenorTenorAltIVA
   \organTenorTerminatioIVA \finalis
 }
 
 psalmOrganBass = {
   \organBassInchoatioIVA
-  \organBassTenorIVA
   \organBassFlexaIVA
-  \organBassTenorIVA
   \organBassMediatioIVA
-  \organBassTenorAltIVA
   \organBassTerminatioIVA
 }
 
 psalmChord = \chordmode {
   \chordInchoatioIVA
-  \chordTenorIVA
   \chordFlexaIVA
-  \chordTenorIVA
   \chordMediatioIVA
-  \chordTenorAltIVA
   \chordTerminatioIVA
 }
 
