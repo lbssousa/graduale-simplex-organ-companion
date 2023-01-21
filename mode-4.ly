@@ -113,8 +113,8 @@ organBassTerminatioIVE = \relative c {
 % ------------------ IV A -----------------------
 chordTerminatioIVA = \chordmode {d2*5/2:m e2:m }
 organAltoTerminatioIVA = \relative c' { d2*5/2 b2 }
-organTenorTerminatioIVA = \relative c { f2*5/2 e2 }
-organBassTerminatioIVA = \relative c { d2*5/2 \shift-left e2 }
+organTenorTerminatioIVA = \relative c { f2*5/2 g2 }
+organBassTerminatioIVA = \relative c { d2*5/2 e2 }
 
 % ------------------ IV c ------------------------
 chordTerminatioIVc = \chordmode {d2:m e2:m }
