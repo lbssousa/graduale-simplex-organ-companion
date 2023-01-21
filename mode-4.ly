@@ -41,8 +41,8 @@ organBassInchoatioIVE = \relative c { c2~ }
 
 % -------------- IV A --------------------------
 chordInchoatioIVA = \chordmode { a2:m~ }
-organAltoInchoatioIVA = \relative c' { e2~ }
-organTenorInchoatioIVA = \relative c' { c2~ }
+organAltoInchoatioIVA = \relative c' { c2~ }
+organTenorInchoatioIVA = \relative c { e2~ }
 organBassInchoatioIVA = \relative c { a2~ }
 
 % -------------- IV c -----------------------
@@ -60,9 +60,9 @@ organTenorFlexaIVE = \relative c' { a2~ a2~ }
 organBassFlexaIVE = \relative c { c2 b2~ }
 
 % --------------- IV A --------------------------
-chordFlexaIVA = \chordmode { a2:m g2/a }
-organAltoFlexaIVA = \relative c' { e2 d2~ }
-organTenorFlexaIVA = \relative c' { c2 b2~ }
+chordFlexaIVA = \chordmode { a2:m e2:m/a }
+organAltoFlexaIVA = \relative c' { c2 b2~ }
+organTenorFlexaIVA = \relative c { e2 d2~ }
 organBassFlexaIVA = \relative c { a2~ a2~ }
 
 % --------------- IV c --------------------------
@@ -81,9 +81,9 @@ organBassMediatioIVE = \relative c { \consonante c2*2 g'2 }
 
 % --------------- IV A --------------------------
 chordMediatioIVA = \chordmode { a2*3:m }
-organAltoMediatioIVA = \relative c' { e2*3~ }
-organTenorMediatioIVA = \relative c' { c2*3~ }
-organBassMediatioIVA = \relative c { a2*3~ }
+organAltoMediatioIVA = \relative c' { c2*3 }
+organTenorMediatioIVA = \relative c { e2*3 }
+organBassMediatioIVA = \relative c { a2*3 }
 
 % --------------- IV c --------------------------
 chordMediatioIVc = \chordmode { a2*3:m }
@@ -111,10 +111,10 @@ organBassTerminatioIVE = \relative c {
 }
 
 % ------------------ IV A -----------------------
-chordTerminatioIVA = \chordmode { d4*5:m e2:m }
-organAltoTerminatioIVA = \relative c' { f2*5/2 e2 }
-organTenorTerminatioIVA = \relative c' { d2*5/2 b2 }
-organBassTerminatioIVA = \relative c { d2*5/2 e2 }
+chordTerminatioIVA = \chordmode {d2*5/2:m e2:m }
+organAltoTerminatioIVA = \relative c' { d2*5/2 b2 }
+organTenorTerminatioIVA = \relative c { f2*5/2 e2 }
+organBassTerminatioIVA = \relative c { d2*5/2 \shift-left e2 }
 
 % ------------------ IV c ------------------------
 chordTerminatioIVc = \chordmode {d2:m e2:m }
