@@ -10,31 +10,42 @@ antiphonChant = \relative c' {
 }
 
 antiphonOrganChant = \relative c' {
-  e4 g \neumII g a a4 a \divisioMaxima
+  e4 g \neumII g a a4 a
   a a g \neumII a b g4 \neumII a b a4 a \divisioMaxima \break
-  e a g fis e d \neumII e d \divisioMaxima
-  c4 d e f g f e e \finalis
+  e a g fis e d \episemaII e d c4 d e f g f e e \finalis
 }
 
 antiphonOrganAlto = \relative c' {
-  s1*7
+  b2 d e2*2
+  d2*3/2~ d4~ d
+  \shift-left e2*3/2 d c2*1/2~
+  \shift-left c2*2 d2 c4 b
 }
 
 antiphonOrganTenor = \relative c' {
-  s1*7 \finalis
+  g2~ g~ g2*2~
+  g2*3/2~ g4 fis \divisioMaxima
+  e2*3/2 a g2*1/2
+  a2*2~ a2 e4~ e \finalis
 }
 
-antiphonOrganBass = \relative c' {
-  s1*7
+antiphonOrganBass = \relative c {
+  e2 b c2*2
+  b2*3/2 d4~ d
+  c2*3/2~ c~ c2*1/2
+  a2*2 d2 \shift-left e4~ \shift-left e
 }
 
 antiphonChord = \chordmode {
-  a2*3:m e4*5:m a2*4:m d4 c2*3 a2:m
+  e2:m g/b a2*2:m/c
+  g2*3/2/b d4:sus4 d
+  c2*3/2 d/c c2*1/2
+  a2*2:m g2/d c4/e e:m
 }
 
 antiphonLyrics = \lyricmode {
-  Ad te, Dó -- mi -- "ne, *" le -- vá -- vi á -- ni -- mam me -- am:
-  ve -- ni, et é -- ri -- pe me, Dó -- mi -- ne, ad te con -- fú -- gi.
+  Ad te, Dó -- mi -- "ne, *" le -- vá -- vi á -- ni -- mam __ me -- am:
+  ve -- ni, et é -- ri -- pe me, __ Dó -- mi -- ne, ad te con -- fú -- gi.
 }
 
 psalmChant = {
@@ -84,7 +95,7 @@ psalmVerseI = \lyricmode {
   \markup { \italic Ne } -- \markup { \italic que } _ _ _ _
   "exsúltent super me ini" -- \markup { \italic mí } -- \markup { \italic ci } \markup { \bold me } -- _ "i, *"
   \set stanza = "1. "
-  "étenim univérsi qui sustínent te" "non confun" -- \markup { \bold dén } -- _ tur.
+  "étenim univérsi qui sustínent te non confun" -- \markup { \bold dén } -- _ tur.
 }
 
 psalmVerseII = \lyricmode {
@@ -92,7 +103,7 @@ psalmVerseII = \lyricmode {
   \markup { \italic Vi } -- \markup { \italic as } _ _ _ _
   "tuas, Dómine, de" -- \markup { \italic món} -- \markup { \italic stra } \markup { \bold mi } -- _ "hi, *"
   \set stanza = "2. "
-  "et sémitas" "tuas e" -- \markup { \bold dó } -- ce me.
+  "et sémitas tuas e" -- \markup { \bold dó } -- ce me.
 }
 
 psalmVerseIII = \lyricmode {
@@ -101,7 +112,7 @@ psalmVerseIII = \lyricmode {
   "ge me in veritáte tua, et"\markup { \bold do } -- ce "me, †"
   "quia tu es Deus sa" -- \markup { \italic lú } -- \markup { \italic tis } \markup { \bold  me } -- _ "æ, *"
   \set stanza = "3. "
-  "in te sustínui" "tota" \markup { \bold di } -- _ e.
+  "in te sustínui tota" \markup { \bold di } -- _ e.
 }
 
 psalmVerseIV = \lyricmode {
@@ -109,7 +120,7 @@ psalmVerseIV = \lyricmode {
   \markup { \italic Se } -- \markup { \italic cún } -- _ _ _ _
   "dum misericórdiam tuam me" -- \markup { \italic mén } -- \markup { \italic to } \markup { \bold me } -- i "tu, *"
   \set stanza = "4. "
-  "propter bonitátem" "tuam," \markup { \bold Dó } -- mi -- ne.
+  "propter bonitátem tuam," \markup { \bold Dó } -- mi -- ne.
 }
 
 psalmVerseV = \lyricmode {
@@ -117,7 +128,7 @@ psalmVerseV = \lyricmode {
   \markup \italic Dul -- \markup \italic cis _ _ _ _
   "et" \markup \italic rec -- \markup \italic tus \markup { \bold Dó } -- mi -- "ne, *"
   \set stanza = "5. "
-  "propter hoc peccatóres" "viam do" -- \markup { \bold cé } -- _ bit.
+  "propter hoc peccatóres viam do" -- \markup { \bold cé } -- _ bit.
 }
 
 psalmVerseVI = \lyricmode {
@@ -125,7 +136,7 @@ psalmVerseVI = \lyricmode {
   \markup \italic Dí -- \markup \italic ri -- _ _ _ _
   "get mansuétos" \markup \italic in \markup \italic iu -- \markup \bold dí -- ci -- "o, *"
   \set stanza = "6. "
-  "docébit mites" "vias" \markup { \bold su } -- _ as.
+  "docébit mites vias" \markup { \bold su } -- _ as.
 }
 
 %#(set-global-staff-size 23)
@@ -187,7 +198,7 @@ psalmVerseVI = \lyricmode {
 
 \score {
   \header {
-    piece = "Psalmus 24"
+    piece = "Psalmus 24,3-5.7-9"
   }
 
   <<
