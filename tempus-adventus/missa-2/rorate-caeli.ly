@@ -137,6 +137,8 @@ psalmVerseVI = \lyricmode {
   dedication = "Tempus Adventus"
   title = "Missa II"
   subtitle = "Antiphona ad introitum"
+  arranger = "Arr.: Gennaro M. Becchimanzi & Theo Flury"
+  meter = "GS 59"
   tagline = ##f
 }
 

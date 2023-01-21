@@ -221,6 +221,8 @@ psalmVerseX = \lyricmode {
   dedication = "Tempus Nativitatis"
   title = "In Epiphania Domini"
   subtitle = "Antiphona ad communionem"
+  arranger = "Arr.: Gennaro M. Becchimanzi & Theo Flury"
+  meter = "GS 80"
   tagline = ##f
 }
 
