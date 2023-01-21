@@ -10,30 +10,42 @@ antiphonChant = \relative c' {
 }
 
 antiphonOrganChant = \relative c' {
-  e4 d e g g g \neumII a b a4 \divisioMaxima
+  e4 d e g g g \neumII a b a4
   a g a b \neumII a g a4 a \divisioMaxima \break
-  a e a g fis \neumII e d e4 \divisioMaxima
-  d c d \neumII e f g f e e \finalis
+  a e a g fis \neumII e d e4
+  d c d \episemaII e f g f e e \finalis
 }
 
 antiphonOrganAlto = \relative c' {
-  s1*7 s2
+  b2*3/2 d2 e2*3
+  d2~ d4~ d
+  e2*5/2 b2*3/2
+  \shift-left c2*3/2 d2 c4 b
 }
 
 antiphonOrganTenor = \relative c' {
-  s1*7 s2
+  g2*3/2~ g2~ g2*3~
+  g2~ g4 fis \divisioMaxima
+  a2*5/2 b2*3/2
+  a2*3/2~ a2 e4~ e \finalis
 }
 
-antiphonOrganBass = \relative c' {
-  s1*7 s2
+antiphonOrganBass = \relative c {
+  g2*3/2 b2 c2*3
+  g2 d'4~ d
+  c2*5/2 g2*3/2
+  a2*3/2 d2 \shift-left e4~ \shift-left e
 }
 
 antiphonChord = \chordmode {
-  e4*5:m a4*4:m e4*4:m a4*5:m d4*2 c4*8 e4*2:m
+  e2*3/2:m~ g2/b~ c2*3~
+  g2~ d4:sus4 d
+  a2*5/2:m g2*3/2
+  a2*3/2~ d2:sus4 c4/e~ e:m
 }
 
 antiphonLyrics = \lyricmode {
-  Ro -- rá -- te cæ -- li dé -- su -- "per, *" et nu -- bes plu -- ant Iu -- stum: a -- pe -- ri -- á -- tur ter -- ra, et gér -- mi -- net Sal -- va -- tó -- rem.
+  Ro -- rá -- te cæ -- li dé -- su -- "per, *" et nu -- bes plu -- ant __ iu -- stum: a -- pe -- ri -- á -- tur ter -- ra, et gér -- mi -- net __ Sal -- va -- tó -- rem.
 }
 
 psalmChant = {
@@ -178,7 +190,7 @@ psalmVerseVI = \lyricmode {
 
 \score {
   \header {
-    piece = "Psalmus 18 A"
+    piece = "Psalmus 18A,2-7"
   }
 
   <<
