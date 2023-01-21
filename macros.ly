@@ -23,7 +23,10 @@ liq =
 #(define-music-function
   (pa)
   (ly:pitch?)
-  #{ $pa -> #})
+  #{
+    \tweak font-size -4 $pa
+    %$pa ->
+  #})
 
 % Liquescent two-note neum (duration: quarter note)
 liqII =
@@ -31,8 +34,8 @@ liqII =
   (pa pb)
   (ly:pitch? ly:pitch?)
   #{ $pa 8(
-    %\tweak font-size -4 $pb )
-    $pb -> )
+     \tweak font-size -4 $pb )
+     %$pb -> )
   #})
 
 % Episema two-note neum (duration: quarter note)
@@ -40,13 +43,13 @@ episema =
 #(define-music-function
   (pa)
   (ly:pitch?)
-  #{ $pa -- #})
+  #{ $pa 4. #})
 
 episemaII =
 #(define-music-function
   (pa pb)
   (ly:pitch? ly:pitch?)
-  #{ $pa 8--( $pb --) #})
+  #{ $pa 8.*2/3( $pb 8.*2/3) #})
 
 %
 % Voice leading lines are drawn as dotted glissandi
@@ -73,4 +76,20 @@ consonante =
     $pa $da ~\glissando
     \once \override NoteHead.transparent = ##t
     $pb $db ~
+  #})
+
+shift-left =
+#(define-music-function
+  ()
+  ()
+  #{
+    \once \override NoteHead.X-offset = #-1.3
+  #})
+
+shift-right =
+#(define-music-function
+  ()
+  ()
+  #{
+    \once \override NoteHead.X-offset = #1.3
   #})
