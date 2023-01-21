@@ -13,12 +13,10 @@ chantFlexaSimplexIV = \relative c'' { a2 a4 g }
 chantMediatioIV = \relative c'' { a2 g4 a b \parenthesize a8 a }
 chantMediatioSimplexIV = \relative c'' { a2 g4 a b a }
 
-chantTerminatioIVE = \relative c'' { a2*1/2 a2*1/2 g4 a b8( a) \parenthesize g4 g8( f) e4 }
-chantTerminatioSimplexIVE = \relative c'' { a2*1/2 a2*1/2 g4 a b8( a) g4( f) e4 }
-organChantTerminatioIVE = \relative c'' {
-  a2*1/2~
-  a2*1/2 g4 a b8( a) \parenthesize g4 g8( f) e4
+chantTerminatioIVE = \relative c'' {
+  a2 g4 a b8( a) \parenthesize g4 g8( f) e4
 }
+chantTerminatioSimplexIVE = \relative c'' { a2 g4 a b8( a) g8( f) e4 }
 
 chantTerminatioIVA = \relative c'' { a2 g4 a b g \parenthesize e8 e }
 chantTerminatioSimplexIVA = \relative c'' { g4 a b g e }
@@ -35,9 +33,9 @@ organChantTerminatioIVc = \relative c'' {
 
 % -------------- IV E --------------------------
 chordInchoatioIVE = \chordmode { a2:m }
-organAltoInchoatioIVE = \relative c' { e2~ }
+organAltoInchoatioIVE = \relative c' { c2~ }
 organTenorInchoatioIVE = \relative c' { a2~ }
-organBassInchoatioIVE = \relative c { c2~ }
+organBassInchoatioIVE = \relative c { a2~ }
 
 % -------------- IV A --------------------------
 chordInchoatioIVA = \chordmode { a2:m~ }
@@ -55,9 +53,9 @@ organBassInchoatioIVc = \relative c { a2~ }
 
 % --------------- IV E --------------------------
 chordFlexaIVE = \chordmode { a2:m g2/a }
-organAltoFlexaIVE = \relative c' { e2 d2~ }
-organTenorFlexaIVE = \relative c' { a2~ a2~ }
-organBassFlexaIVE = \relative c { c2 b2~ }
+organAltoFlexaIVE = \relative c' { d2 c2~ }
+organTenorFlexaIVE = \relative c' { b2~ a2~ }
+organBassFlexaIVE = \relative c { a2~ a2~ }
 
 % --------------- IV A --------------------------
 chordFlexaIVA = \chordmode { a2:m e2:m/a }
@@ -74,10 +72,15 @@ organBassFlexaIVc = \relative c { a2~ a2~ }
 % --------------- Mediatio ----------------------
 
 % --------------- IV E --------------------------
-chordMediatioIVE = \chordmode { a2*2:m e2:m/g }
-organAltoMediatioIVE = \relative c' { e2*2~ e2~ }
-organTenorMediatioIVE = \relative c' { a2*2 g2~ }
-organBassMediatioIVE = \relative c { \consonante c2*2 g'2 }
+chordMediatioIVE = \chordmode { a2*3:m }
+organAltoMediatioIVE = \relative c' { c2*3 }
+organTenorMediatioIVE = \relative c' { a2*3 }
+organBassMediatioIVE = \relative c { a2*3 }
+
+chordMediatioSimplexIVE = \chordmode { a2*3:m }
+organAltoMediatioSimplexIVE = \relative c' { c2*3 }
+organTenorMediatioSimplexIVE = \relative c' { a2*3 }
+organBassMediatioSimplexIVE = \relative c { a2*3 }
 
 % --------------- IV A --------------------------
 chordMediatioIVA = \chordmode { a2*3:m }
@@ -94,21 +97,15 @@ organBassMediatioIVc = \relative c { a2*3 }
 % ------------------ Terminatio ------------------
 
 % ------------------ IV E -----------------------
-chordTerminatioIVE = \chordmode {
-  a2*1/2:m/f d2*2:m/f d2:m/e e4:m
-}
+chordTerminatioIVE = \chordmode { d2*3:m g2*1/2/d e4:m }
+organAltoTerminatioIVE = \relative c' { d2*3~ d2*1/2 b4 }
+organTenorTerminatioIVE = \relative c { f2*3 a2*1/2 e4 }
+organBassTerminatioIVE = \relative c { d2*3~ d2*1/2 \shift-left e4 }
 
-organAltoTerminatioIVE = \relative c' {
-  e2*1/2 d2*2~ \consonante d2 e4
-}
-
-organTenorTerminatioIVE = \relative c' {
-  a2*1/2~ a2*2~ a2 b4
-}
-
-organBassTerminatioIVE = \relative c {
-  f2*1/2~ f2*2 e2~ e4
-}
+chordTerminatioSimplexIVE = \chordmode { d2*5/2:m g2*1/2/d e4:m }
+organAltoTerminatioSimplexIVE = \relative c' { d2*5/2~ d2*1/2 b4 }
+organTenorTerminatioSimplexIVE = \relative c { f2*5/2 a2*1/2 e4 }
+organBassTerminatioSimplexIVE = \relative c { d2*5/2~ d2*1/2 \shift-left e4 }
 
 % ------------------ IV A -----------------------
 chordTerminatioIVA = \chordmode {d2*5/2:m e2:m }
